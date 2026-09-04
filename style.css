@@ -99,3 +99,25 @@ body {
     align-items: center;
     color: #333;
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    margin: 0 auto;
+  }
+  .hero-content h1 { font-size: 5rem; }
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-buttons {
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .hero-content h1 { font-size: 6rem; }
+  .btn { font-size: 1.5rem; padding: 1.5rem; }
+}
+
